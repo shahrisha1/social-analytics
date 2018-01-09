@@ -38,18 +38,6 @@ consumer_key = config['twitter']['consumer_key']
 print(consumer_key)
 ```
 
-    {
-        "twitter": {
-            "access_token": "942946542209474561-KkJgsxXMBJRE1JkGxHdQw0mblX4Ahht",
-            "access_token_secret": "Nf1p8w9xeBJ8kOFCo3hM8MmR6iFBd0Q8XKLTdzfTskf9d",
-            "consumer_key": "eVPxS1ESzxNuO2J89vkqRepgw",
-            "consumer_secret": "MjrNSnKPLzkxclE3csYavEDEFKzqsSJWAIoZOMGWtzmZF63N3G"
-        }
-    }
-    eVPxS1ESzxNuO2J89vkqRepgw
-
-
-
 ```python
 #sentiment analyzer #pip install vaderSentiment==2.5
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
